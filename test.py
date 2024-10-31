@@ -4,7 +4,9 @@ from time import sleep
 import pyautogui
 from pyautogui import press
 
-time.sleep(3)
+print("loading virus exe")
+
+time.sleep(7)
 pyautogui.hotkey("ctrl", "esc")
 time.sleep(1)
 pyautogui.typewrite("https://www.youtube.com/watch?v=dQw4w9WgXcQ")
